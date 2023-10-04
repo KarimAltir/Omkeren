@@ -60,7 +60,7 @@ Console.WriteLine();
 
 string GeefDeOmkering(string woord)
 {
-    if (woord.Length = 0)
+    if (woord.Length == 0)
         return woord;
     return GeefDeOmkering(woord.Substring(1)) + woord[0];
 
